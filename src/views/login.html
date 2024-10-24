@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Se connecter</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <script src="../../dist/bundle.js"></script>
+    </head>
+    <body>
+        <div class="container-form">
+            <h1>Connexion</h1>
+            <form action="" id="signin-form">
+                <label for="email" id="email">Email : </label>
+                <input type="email" id="email" required>
+                <label for="password" id="password">Mot de passe</label>
+                <input type="password" id="password" required>
+                <button type="submit">Se connecter</button>
+                <div class="no-account">Pas encore de compte</div>
+            </form>
+        </div>
+
+        <div id="alert-container" class="alert-container" style="display: none;">
+            <div class="alert-box">
+                <span class="alert-message"></span>
+            </div>
+        </div>
+    </body>
+</html>

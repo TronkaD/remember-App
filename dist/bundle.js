@@ -1,0 +1,1 @@
+(()=>{var o=function(o,n){var i=window.location.pathname,e=i.split("/").pop(),c=i.replace("/".concat(e),"");if(console.log("Vérification de sessionStorage..."),n){var a="".concat(c,"/src/views/").concat(o,".html");window.location.href=a}else console.log(e)};window.changeView=function(n){"login"===n&&o("login",!0),"register"===n&&o("register",!0)}})();
