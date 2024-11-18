@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint . --ext .js --fx",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "format": "prettier --write ."
   },
   "author": "DIABATE Tronka",
   "license": "ISC",
@@ -23,7 +24,10 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "firebase": "^11.0.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "sortable.js": "^0.3.0",
+    "sortablejs": "^1.15.3"
   }
 }
